@@ -1,10 +1,10 @@
-# 🫀 Real-Time Arrhythmia Detection using PPG and Machine Learning
+# Real-Time Arrhythmia Detection using PPG and Machine Learning
 
 A real-time physiological monitoring system that detects irregular heart rhythms using PPG signals from the MAX30102 sensor and a machine learning model trained on the MIT-BIH dataset.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project implements an end-to-end pipeline for arrhythmia detection:
 
@@ -19,14 +19,14 @@ The system runs on a Raspberry Pi and provides real-time:
 
 ---
 
-## ⚙️ Hardware
+## Hardware
 
 - Raspberry Pi  
 - MAX30102 Pulse Oximeter Sensor  
 
 ---
 
-## 🧠 Software Stack
+## Software Stack
 
 - Python  
 - NumPy, SciPy  
@@ -35,7 +35,7 @@ The system runs on a Raspberry Pi and provides real-time:
 
 ---
 
-## 🔬 Signal Processing Pipeline
+## Signal Processing Pipeline
 
 ### 1. Data Acquisition
 - IR and Red signals sampled at 50 Hz
@@ -58,7 +58,7 @@ The system runs on a Raspberry Pi and provides real-time:
 
 ---
 
-## 🤖 Machine Learning
+## Machine Learning
 
 ### Dataset
 - MIT-BIH Arrhythmia Database (ECG-based, expert labeled)
@@ -80,7 +80,7 @@ The system runs on a Raspberry Pi and provides real-time:
 
 ---
 
-## 🧠 Real-World Enhancements
+## Real-World Enhancements
 
 To handle real-world PPG signals:
 
@@ -90,7 +90,3 @@ To handle real-world PPG signals:
 - Probability smoothing (stable output)  
 
 ---
-
-## 📊 Output
-
-Example:
